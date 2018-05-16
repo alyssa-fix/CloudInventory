@@ -1,0 +1,382 @@
+html {
+	height:100%;
+}
+
+body {
+	font-family:'Arial';
+	font-size: 14px;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size:100% 100%;
+	margin:0px;
+	padding:2px;
+}
+
+h1 {
+	font-family:'lucida sans';
+	font-style:italic;
+	font-size:50px;
+	text-align:center;
+}
+
+h2 {
+	font-family:'lucida sans';
+	font-style:italic;
+	font-size:20px;
+	margin-left:0px;
+	width:60%;
+}
+
+h3 {
+	display:inline;
+}
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+p {
+	max-width:95%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#container {
+	background-color:white;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 10 10 10;
+	display:block;
+	overflow:auto;
+	min-height: 900px;
+}
+
+#header {
+	background-color:black;
+	height:85px;
+	margin-top:0px;
+	padding-top:15px;
+}
+
+#logo {
+	width:550px;
+	float:left;
+}
+
+#header h1 {
+	color:white;
+	margin-top:0px;
+	margin-left:100px;
+	padding-top:0px;
+	text-align: left;
+}
+
+/* NAVIGATION BAR */
+	#navigationbar {
+		height:50px;
+		width:710px;
+		float:right;
+		padding:0px;
+		margin-right:100px;
+		margin-top:10px;
+		text-align: center;
+	}
+
+	#navigationbar ul {
+		list-style:none;
+		margin:0px;
+		padding:0px;
+		width:100%;
+	}
+
+	#navul li {
+		float:left;
+		width:175px;
+		height:50px;
+		margin:0px 0px;
+		text-align: center;
+	}
+
+	#navul li a {
+		display:block;
+		font-size:18px;
+		line-height: 50px;
+		color:white;
+		font-size:20px;
+	}
+
+	#navul li a:hover {
+    	background-color: #323232;
+	}	
+
+	.navactive {
+		font-weight: bold;
+		font-style:italic;
+		background-color: #323232;
+	}
+
+#mainContent {
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	overflow:auto;
+}
+
+#iteminfo {
+	margin-top:5px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#deletewarning {
+	font-size:30px;
+	font-family:'lucida sans';
+	font-style:italic;
+	text-align: center;
+	color:green;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+#deletebuttonconfirm {
+	width:100px;
+	height:45px;
+	font-weight:bold;
+	font-size:18px;
+	margin-right:10px;
+	margin-top:20px;
+}
+
+#deletecancel {
+	width:100px;
+	height:45px;
+	font-weight:bold;
+	font-size:18px;
+	margin-top:20px;
+}
+
+#editbutton, #deletebutton, #savebutton, #cancelbutton{
+	width:100px;
+	height:38px;
+	font-weight:bold;
+	font-size:14px;
+	margin-bottom:7px;
+	margin-right:2px;
+}
+
+#savesettings {
+
+}
+
+#buttons {
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#left {
+	width:70%;
+	/*margin-left:10%;*/
+	float:left;
+	margin-left:0px;
+	padding:0px;
+	margin-top:10px;
+}
+
+#iteminfo p:nth-child(even) {
+	background: #E6E6E6;
+	height: 20px;
+	border-radius: 3px;
+	padding:10px;
+	margin:1px 5px 1px 5px;
+}
+
+#iteminfo p:nth-child(odd) {
+	background: white;
+	height: 20px;
+	padding:10px;
+	margin:1px 5px 1px 5px;
+}
+
+.info {
+	font-weight: bold;
+}
+
+#itemimagediv {
+	width:29%;
+	float:right;
+	text-align: center;
+	/*margin-right:10%;*/
+	margin-top:5%;
+}
+
+.iteminfoimage {
+	min-width:100px;
+	max-width:250px;
+}
+
+/* SETTINGS PAGE */
+
+	/* Left Div */
+		#settingsDivLeft {
+			margin-left:10%;
+			margin-top:25px;
+			padding:5px;
+			width:37%;
+			display:block;
+			overflow:auto;
+			float:left;
+		}
+
+		#settingsDivLeft p:nth-child(even) {
+			background: #E6E6E6;
+			height: 45px;
+			line-height: 45px;
+			border-radius: 3px;
+			padding:10px;
+			margin:1px 5px 1px 5px;
+		}
+
+		#settingsDivLeft p:nth-child(odd) {
+			background: white;
+			min-height: 120px;
+			line-height: 120px;
+			padding:10px;
+			margin:1px 5px 1px 5px;
+		}
+
+	/* Right Div */
+		#settingsDivRight {
+			margin-right:10%;
+			margin-top:25px;
+			padding:5px;
+			width:37%;
+			display:block;
+			overflow:auto;
+			float:right;
+		}
+
+		#settingsDivRight p:nth-child(even) {
+			background: #E6E6E6;
+			height: 45px;
+			line-height: 45px;
+			border-radius: 3px;
+			padding:10px;
+			margin:1px 5px 1px 5px;
+		}
+
+		#settingsDivRight p:nth-child(odd) {
+			background: white;
+			min-height: 120px;
+			line-height: 120px;
+			padding:10px;
+			margin:1px 5px 1px 5px;
+		}
+
+	.editImage {
+		height:115px;
+		box-shadow: 0px 0px 15px 1px gray;
+		float:right;
+	}
+
+	.settingsImage {
+		width:130px;
+		box-shadow: 0px 0px 15px 1px gray;
+		float:right;
+	}
+
+	#RoomsSettings {
+		float:left;
+		width: 100%;
+	}
+
+	#CategoriesSettings {
+		float:right;
+		width: 100%;
+	}
+
+	.SettingsTable {
+		width:100%;
+		padding-right: 0px;
+		border-left:1px solid gray;
+		border-right:1px solid gray;
+		border-top:1px solid gray;
+	}
+
+	.SettingsTable td {
+		vertical-align: middle;
+		border-bottom:1px solid gray;
+		padding:5px 0px 5px 5px;
+		width:33%;
+	}
+
+	.settingslabel {
+		font-weight:bold;
+		padding-left:50px;
+	}
+
+	.add {
+		float:right;
+		background-color:#DDDDDD;
+		padding:5px;
+		margin:5px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 10px 1px gray;
+	}
+
+/* ROOM PAGE */
+
+	#roomsTableHolder {
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:25px;
+		padding:5px;
+		width:80%;
+	}
+
+	#roomsTable {
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	#roomsTable td {
+		width:20%;
+		height:130px;
+		text-align: center;
+		vertical-align: bottom;
+	}
+
+	.tableImages {
+		width:85%;
+		box-shadow: 0px 0px 15px 1px gray;
+	}
+
+	.tableImages:hover {
+		max-width:85%;
+		box-shadow: 0px 0px 15px 4px gray;
+	}
+
+	.tableLabel {
+		font-weight:bold;
+		position:relative;
+		bottom:0;
+	}
+
+/* ROOM INFO */
+
+	#roomInfoLeft {
+		float:left;
+		width:49%;
+		border-right:1px solid gray;
+	}
+
+	#roomInfoRight {
+		float:right;
+		width:49%;
+	}
